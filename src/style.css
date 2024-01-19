@@ -1,0 +1,84 @@
+@import "fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: var(--notosans-font);
+  /*line-height: 1.5;*/
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #1a1a1a;
+  background-color: #ffffff;
+
+  /*font-synthesis: none;*/
+  /*text-rendering: optimizeLegibility;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+
+  /* Colors */
+  --accent-color: #ff43bf;
+  --lil-color: #d1a7c5;
+  --lil-light-color: #e6cfdf;
+  --green-color: #dff5e5;
+  --green-light-color: #e0f5e5;
+  --blue-light-color: #e2edf6;
+
+  /* Fonts */
+  --geologica-font: Geologica, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --notosans-font: NotoSans system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+}
+
+.geologica {
+  font-family: var(--geologica-font);
+}
+
+.lil-light {
+  background: var(--lil-light-color);
+}
+
+.green-light {
+  background: var(--green-light-color);
+}
+
+.colors {
+  background: var(--lil-light-color);
+}
+.colors:nth-child(2n) {
+  background: var(--green-light-color);
+}
+
+.colors-reverse {
+  background: var(--green-light-color);
+}
+.colors-reverse:nth-child(2n) {
+  background: var(--lil-light-color);
+}
+
+
+a {
+
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 100px 0 60px 0;
+}
+
