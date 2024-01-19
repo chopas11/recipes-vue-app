@@ -16,6 +16,10 @@ export default {
     color: {
       type: String,
       required: true,
+    },
+    description: {
+      type: String,
+      required: true,
     }
   }
 }
@@ -28,7 +32,7 @@ export default {
     </div>
 
     <div class="basis-3/5 flex flex-col gap-3">
-      <div :class="color" class="p-6 rounded-3xl"><slot></slot></div>
+      <div :class="color" class="p-6 rounded-3xl"><p v-html="description"></p></div>
       <div :class="color" class="p-6 rounded-3xl">
         <h3>Популярные блюда <StarIcon class="inline" /></h3>
         <p>{{dishes}}</p>

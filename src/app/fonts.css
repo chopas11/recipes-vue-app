@@ -4,28 +4,28 @@
     font-family: 'Geologica';
     font-style: normal;
     font-weight: 400;
-    src: url('./assets/fonts/Geologica/Geologica-Regular.ttf');
+    src: url('../assets/fonts/Geologica/Geologica-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Geologica';
     font-style: normal;
     font-weight: 500;
-    src: url('./assets/fonts/Geologica/Geologica-Medium.ttf');
+    src: url('../assets/fonts/Geologica/Geologica-Medium.ttf');
 }
 
 @font-face {
     font-family: 'Geologica';
     font-style: normal;
     font-weight: 600;
-    src: url('./assets/fonts/Geologica/Geologica-SemiBold.ttf');
+    src: url('../assets/fonts/Geologica/Geologica-SemiBold.ttf');
 }
 
 @font-face {
     font-family: 'Geologica';
     font-style: normal;
     font-weight: 700;
-    src: url('./assets/fonts/Geologica/Geologica-Bold.ttf');
+    src: url('../assets/fonts/Geologica/Geologica-Bold.ttf');
 }
 
 
@@ -34,33 +34,33 @@
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 400;
-    src: url('./assets/fonts/NotoSans/NotoSans-Regular.ttf');
+    src: url('../assets/fonts/NotoSans/NotoSans-Regular.ttf');
 }
 
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 500;
-    src: url('./assets/fonts/NotoSans/NotoSans-Medium.ttf');
+    src: url('../assets/fonts/NotoSans/NotoSans-Medium.ttf');
 }
 
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 600;
-    src: url('./assets/fonts/NotoSans/NotoSans-SemiBold.ttf');
+    src: url('../assets/fonts/NotoSans/NotoSans-SemiBold.ttf');
 }
 
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 700;
-    src: url('./assets/fonts/NotoSans/NotoSans-Bold.ttf');
+    src: url('../assets/fonts/NotoSans/NotoSans-Bold.ttf');
 }
 
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 800;
-    src: url('./assets/fonts/NotoSans/NotoSans-ExtraBold.ttf');
+    src: url('../assets/fonts/NotoSans/NotoSans-ExtraBold.ttf');
 }

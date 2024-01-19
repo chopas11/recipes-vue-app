@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="footer flex flex-row justify-between items-center mt-10 mb-4">
+  <div class="footer container mx-auto flex flex-row justify-between items-center">
     <div>
       <Logo />
     </div>
@@ -24,5 +24,8 @@ export default {
 </template>
 
 <style scoped>
-
+  .footer {
+    height: 60px;
+    //margin-top: -90px;
+  }
 </style>

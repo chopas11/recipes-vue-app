@@ -17,7 +17,10 @@ export default {
       image3: image3,
       image4: image4,
     }
-  }
+  },
+  methods: {
+
+  },
 }
 </script>
 
@@ -34,7 +37,7 @@ export default {
         <h1 class="font-bold uppercase geologica">Сайт-сборник</h1>
         <span class="text-white font-medium mb-2">Итальянская и американская кухня</span>
         <div class="pt-10">
-          <Button>Добавить рецепт</Button>
+          <Button @click="this.$emit('show')" styles="white">Добавить рецепт</Button>
         </div>
       </div>
       <div class="flex flex-row basis-1/4 gap-2">
