@@ -90,7 +90,11 @@ export default {
       </div>
       <div class="basis-1/5">
         <span class="geologica text-lg">Загрузите фото блюда</span>
-        <input type="file" @change="uploadCover" class="input mt-2" placeholder="Фото" />
+        <label class="input_file">
+          <input type="file" @change="uploadCover"
+                 name="file" placeholder="Фото" />
+          <span class="input_file_btn">Выберите файл</span>
+        </label>
       </div>
       <div class="basis-1/5">
         <span class="geologica text-sm ">*необязательно</span>
@@ -122,10 +126,45 @@ export default {
 .input {
   background: var(--lil-light-color);
   padding: 12px 20px;
+  color: #9ca3af;
   border-radius: 50px;
   font-size: 14px;
   outline: none;
   width: 100%;
+  height: 45px;
+}
+
+.input_file {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.input_file_btn {
+  cursor: pointer;
+  width: 100%;
+  color: #9ca3af;
+  position: relative;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  bottom: 0;
+  height: 45px;
+  background: var(--lil-light-color);
+  border-radius: 50px;
+}
+
+.input_file input[type=file] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
 }
 
 </style>
